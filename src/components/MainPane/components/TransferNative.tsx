@@ -68,7 +68,7 @@ const TransferNative: FC = () => {
 
   return (
     <VStack w={"45%"} minWidth={"270px"} gap={2}>
-      <AddressInput receiver={receiver} setReceiver={setReceiver} />
+      <AddressInput address={receiver} setAddress={setReceiver} />
 
       <HStack>
         <NumberInput
