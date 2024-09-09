@@ -6,7 +6,7 @@ import { Box, Divider, Flex, Heading, useColorMode } from "@chakra-ui/react";
 import { AddressInput } from "@/components";
 import styles from "@/styles/mainPane.module.css";
 
-import { SignMessage, BlockNumber, Erc20Balance } from "./components";
+import { BlockNumber, Erc20Balance, Erc20Permit } from "./components";
 
 const ERC20: FC = () => {
     const { colorMode } = useColorMode();
@@ -31,14 +31,11 @@ const ERC20: FC = () => {
                             <Erc20Balance erc20Address={erc20Address} />
                             <BlockNumber />
                             <Divider mb={4} />
-                            <div className={styles.centerContainer}>
-                                <SignMessage />
-                            </div>
 
-                            {/* <Divider mb={4} />
+                            <Divider mb={4} />
                             <div className={styles.centerContainer}>
                                 <Erc20Permit />
-                            </div> */}
+                            </div>
 
                         </>
                     )}
