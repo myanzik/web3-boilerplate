@@ -10,7 +10,7 @@ import { Providers } from "./providers";
 const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Web3-Boilerplate",
+  title: "Web3-Playground",
   applicationName: "Next Web3 Boilerplate",
   description: "Next.js Web3 boilerplate built on Wagmi, Viem, and Rainbow",
   icons: "favicon.ico",
