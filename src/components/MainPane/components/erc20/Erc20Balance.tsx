@@ -1,7 +1,6 @@
-import { useState, type FC } from "react";
+import { type FC } from "react";
 
 import type { Address } from "viem";
-import { useAccount, useBalance } from "wagmi";
 
 import { InfoText } from "@/components";
 import { useErc20Balance } from "@/hooks/erc20/useErc20Balance";
